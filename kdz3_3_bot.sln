@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kdz3_3_bot", "kdz3_3_bot\kdz3_3_bot.csproj", "{1DC5C95D-479E-44E0-A733-1BFABE1D91BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotProcessing", "BotProcessing\BotProcessing.csproj", "{3B67097F-5116-4149-82B4-67CFC3A6D651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DC5C95D-479E-44E0-A733-1BFABE1D91BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC5C95D-479E-44E0-A733-1BFABE1D91BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC5C95D-479E-44E0-A733-1BFABE1D91BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC5C95D-479E-44E0-A733-1BFABE1D91BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B67097F-5116-4149-82B4-67CFC3A6D651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B67097F-5116-4149-82B4-67CFC3A6D651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B67097F-5116-4149-82B4-67CFC3A6D651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B67097F-5116-4149-82B4-67CFC3A6D651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

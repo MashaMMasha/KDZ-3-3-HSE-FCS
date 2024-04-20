@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Jackletter.Microsoft.Extensions.Logging.File" Version="2.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0-preview.2.24128.5" />
+      <PackageReference Include="runtime.native.System.Net.Http" Version="4.3.1" />
+      <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.1-dev-00077" />
+      <PackageReference Include="System.Net.Http" Version="4.3.4" />
+      <PackageReference Include="System.Text.Json" Version="9.0.0-preview.2.24128.5" />
+      <PackageReference Include="Telegram.Bot" Version="20.0.0-alpha.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BotProcessing\BotProcessing.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>

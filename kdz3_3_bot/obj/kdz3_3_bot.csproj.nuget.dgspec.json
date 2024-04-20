@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\kdz3_3_bot\\kdz3_3_bot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\BotProcessing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\BotProcessing.csproj",
+        "projectName": "BotProcessing",
+        "projectPath": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\BotProcessing.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\obj\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "packagesConfigPath": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\packages.config"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\kdz3_3_bot\\kdz3_3_bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\kdz3_3_bot\\kdz3_3_bot.csproj",
+        "projectName": "kdz3_3_bot",
+        "projectPath": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\kdz3_3_bot\\kdz3_3_bot.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\kdz3_3_bot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\BotProcessing.csproj": {
+                "projectPath": "C:\\Users\\Asus\\RiderProjects\\kdz3_3_bot\\BotProcessing\\BotProcessing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Jackletter.Microsoft.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[3.0.1-dev-00077, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.5, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[20.0.0-alpha.1, )"
+            },
+            "runtime.native.System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
